@@ -1,6 +1,5 @@
 nav {
 	background-color: #808080;
-	display: block;
 }
 
 a {
@@ -33,21 +32,24 @@ section {
 
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 }
 
 h2 {
 	color: #FFD700;
+	text-align: center;
 }
 
 p {
 	width: 100%;
+	text-align: center;
 }
 
 h3 {
 	color: #FF0077}
 
 .board {
-	height: 50%;
+	height: 80%;
 	width: 50%;
 	display: inline-block;
 }
