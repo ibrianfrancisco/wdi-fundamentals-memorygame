@@ -35,9 +35,9 @@ var isTwoCards = function() {
 
   	// displays picture of queen or king
   	if (this.getAttribute('data-card') === 'queen') {
-  		this.innerHTML = "<img src='queen.png'>";
+  		this.innerHTML = "<img src='http://i.imgur.com/ZaL6Gt7.png'>";
   	} else {
-  		this.innerHTML = "<img src='king.png'>";
+  		this.innerHTML = "<img src='http://i.imgur.com/B6W8ZDX.png'>";
   	}
 
   	// if you have two cards in play check for a match
