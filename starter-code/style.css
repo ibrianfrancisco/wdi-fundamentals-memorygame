@@ -25,38 +25,37 @@ nav.clearfix:after {
 }
 
 section {
-	height: 50%;
 	width: 50%;
+	height: 50%;
 	clear: both;
 }
 
 h1 {
 	color: rgb(2, 132, 130);
-	text-align: center;
 }
 
 h2 {
 	color: #FFD700;
-	text-align: center;
-}
-
-p {
-	width: 100%;
-	text-align: center;
 }
 
 h3 {
-	color: #FF0077}
+	color: #FF0077
+}
+
+img {
+	height: 200px;
+	width: 150px;
+}
 
 .board {
-	height: 80%;
+	height: 50%;
 	width: 50%;
 	display: inline-block;
 }
 
 .card {
 	height: 200px;
-	width: 150px;;
+	width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
 	background: yellow;

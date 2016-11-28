@@ -33,6 +33,13 @@ var isTwoCards = function() {
   	// for now, just know it gives you access to the card the user clicked on
   	cardsInPlay.push(this.getAttribute('data-card'));
 
+  	// displays picture of queen or king
+  	if (this.getAttribute('data-card') === 'queen') {
+  		this.innerHTML = "<img src='queen.png'>";
+  	} else {
+  		this.innerHTML = "<img src='king.png'>";
+  	}
+
   	// if you have two cards in play check for a match
   	if (cardsInPlay.length === 2) {
 
@@ -49,7 +56,7 @@ var isTwoCards = function() {
 var isMatch = function(cardChosen) {
 	if (cardChosen[0] === cardChosen[1]) {
 	window.alert("You found a match!")
- 	} else if (cardChosen[0] !== cardChosen[1]) {
+ 	} else {
  	window.alert("Sorry, try again.")
  	}
  };
